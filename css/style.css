@@ -820,6 +820,7 @@ button {
 }
 
 .modal-icon {
+  display: flex;
   border-radius: 50%;
   box-sizing: border-box;
   position: absolute;
@@ -883,9 +884,9 @@ button {
   border-radius: 4px;
   padding-left: 45px;
   color: var(--primery-black-color);
-  font-weight: 600px;
+  font-weight: 600;
   outline: transparent;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus-within {
@@ -915,7 +916,7 @@ button {
 .form-coment {
   width: 100%;
   height: 120px;
-  font-weight: 400px;
+  font-weight: 400;
 
   overflow: hidden;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -966,12 +967,12 @@ button {
 .check-text {
   display: flex;
   align-items: center;
-  margin-left: 12px;
 
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
+  justify-content: center;
 
   color: #757575;
 }
